@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewAccountComponent } from './new-account/new-account.component';
 import { AccountComponent } from './account/account.component';
+import { AccountlistComponent } from './accountlist/accountlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewAccountComponent,
-    AccountComponent
+    AccountComponent,
+    AccountlistComponent
   ],
   imports: [
     BrowserModule,
